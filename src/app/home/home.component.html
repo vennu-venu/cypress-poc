@@ -1,0 +1,22 @@
+<p-card
+  header="Welcome"
+  subheader="Enter User Details"
+  [style]="{ width: '360px' }"
+  data-cy-home
+>
+  <ng-template pTemplate="header">
+    <img
+      alt="Card"
+      src="https://primefaces.org/cdn/primeng/images/card-ng.jpg"
+    />
+  </ng-template>
+  <div class="button-container">
+    <p-button
+      label="Next"
+      severity="contrast"
+      class="w-full"
+      styleClass="w-full"
+      (click)="navigate()"
+    />
+  </div>
+</p-card>

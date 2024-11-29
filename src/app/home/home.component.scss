@@ -1,0 +1,11 @@
+:host {
+  display: grid;
+  align-items: start;
+  justify-items: center;
+  padding-top: 64px;
+  height: 100vh;
+  .button-container {
+    display: grid;
+    justify-items: end;
+  }
+}
